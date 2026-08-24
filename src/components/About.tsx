@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { company } from "@/lib/contacts";
+import { aboutImage } from "@/lib/catalog";
 
 export function About() {
   return (
@@ -22,12 +24,18 @@ export function About() {
           </p>
         </div>
 
-        <div className="photo-slot relative aspect-[4/5] overflow-hidden rounded-[1.5rem] border border-[var(--line)] shadow-[var(--shadow)] sm:aspect-[5/4] lg:aspect-[4/5]">
-          <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-ink/70 via-ink/10 to-transparent p-6 text-white">
-            <p className="font-display text-2xl font-semibold">Fotos das toalhas</p>
-            <p className="mt-2 max-w-xs text-sm text-white/80">
-              Espaço reservado para o acervo do cliente. Assim que as imagens chegarem, esta área
-              vira vitrine real do produto.
+        <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] border border-[var(--line)] shadow-[var(--shadow)] sm:aspect-[5/4] lg:aspect-[4/5]">
+          <Image
+            src={aboutImage.image}
+            alt={aboutImage.alt}
+            fill
+            sizes="(max-width: 1024px) 100vw, 40vw"
+            className="object-cover object-center"
+          />
+          <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-ink/75 via-ink/10 to-transparent p-6 text-white">
+            <p className="font-display text-2xl font-semibold">{aboutImage.title}</p>
+            <p className="mt-2 max-w-xs text-sm text-white/85">
+              Acervo real da MD — cores prontas para combinar com o tema do seu evento.
             </p>
           </div>
         </div>

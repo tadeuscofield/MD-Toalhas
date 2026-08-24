@@ -19,7 +19,7 @@ export function Footer() {
           <ul className="mt-3 space-y-2 text-sm text-muted">
             <li>
               <a href="#formatos" className="hover:text-ink">
-                Formatos
+                Cores
               </a>
             </li>
             <li>

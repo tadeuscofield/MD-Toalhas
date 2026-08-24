@@ -19,7 +19,7 @@ export function Header() {
 
         <nav className="hidden items-center gap-6 text-sm text-white/80 md:flex" aria-label="Principal">
           <a href="#formatos" className="hover:text-white">
-            Formatos
+            Cores
           </a>
           <a href="#eventos" className="hover:text-white">
             Eventos

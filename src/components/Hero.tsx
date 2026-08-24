@@ -1,20 +1,30 @@
+import Image from "next/image";
 import { company, contacts } from "@/lib/contacts";
+import { heroImage } from "@/lib/catalog";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 export function Hero() {
   return (
     <section
       id="topo"
-      className="atmosphere fabric-grid relative min-h-[100svh] overflow-hidden text-white"
+      className="relative min-h-[100svh] overflow-hidden text-white"
     >
+      <Image
+        src={heroImage.image}
+        alt={heroImage.alt}
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-[center_30%]"
+      />
       <div
-        className="pointer-events-none absolute inset-y-0 right-0 w-full max-w-3xl opacity-40"
+        className="absolute inset-0 bg-gradient-to-r from-[#0a292e]/94 via-[#0a292e]/78 to-[#0a292e]/45"
         aria-hidden="true"
-      >
-        <div className="absolute -right-16 top-24 h-72 w-72 rounded-full bg-champagne/25 blur-3xl float-soft" />
-        <div className="absolute bottom-20 right-10 h-80 w-80 rounded-full bg-white/10 blur-3xl" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_40%,rgba(255,255,255,0.12),transparent_45%)]" />
-      </div>
+      />
+      <div
+        className="absolute inset-0 bg-gradient-to-t from-[#0a292e]/70 via-transparent to-[#0a292e]/35"
+        aria-hidden="true"
+      />
 
       <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-4 pb-28 pt-28 sm:px-6 sm:pb-24 lg:justify-center lg:px-8 lg:pb-16">
         <div className="max-w-3xl">
@@ -25,8 +35,8 @@ export function Hero() {
             Aluguel de toalhas para casamentos, festas de 15 e eventos corporativos
           </h1>
           <p className="reveal reveal-delay-2 mt-5 max-w-xl text-base leading-relaxed text-white/90 sm:text-lg">
-            Atendimento comercial ágil no Rio de Janeiro, com peças limpas, variedade de cores e
-            experiência de mais de {company.years} anos para empresas e organizadores de eventos.
+            Atendimento em todo o RJ, com peças limpas, cores reais do acervo e mais de{" "}
+            {company.years} anos de experiência para empresas e organizadores de eventos.
           </p>
 
           <div className="reveal reveal-delay-3 mt-8 flex w-full max-w-xl flex-col gap-3 sm:flex-row">

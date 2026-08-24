@@ -1,25 +1,5 @@
-const formats = [
-  {
-    title: "Mesas redondas",
-    copy: "Toalhas longas e de tampo para mesas de convidados, com caimento elegante para casamentos e recepções.",
-    specs: "Diâmetros comuns · várias cores",
-  },
-  {
-    title: "Mesas quadradas",
-    copy: "Opções para cobrir o tampo ou compor com cobre-manchas, ideais para coffee breaks e festas íntimas.",
-    specs: "1,00 × 1,00 m · 1,50 × 1,50 m",
-  },
-  {
-    title: "Pranchão",
-    copy: "Cobertura completa para mesas retangulares de buffet, apoio e área gastronômica do evento.",
-    specs: "Formatos alongados · oxford e cetim",
-  },
-  {
-    title: "Cores e tecidos",
-    copy: "Paleta ampla para combinar com a identidade do evento — do clássico branco ao visual corporativo.",
-    specs: "Sob consulta no WhatsApp",
-  },
-];
+import Image from "next/image";
+import { towelColors } from "@/lib/catalog";
 
 export function Formats() {
   return (
@@ -30,37 +10,36 @@ export function Formats() {
             Catálogo
           </p>
           <h2 className="font-display mt-3 text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
-            Formatos certos para cada mesa do seu evento
+            Cores do acervo para vestir a mesa do seu evento
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted sm:text-lg">
-            Monte a composição com redondas, quadradas e pranchão. As fotos das toalhas serão
-            adicionadas em breve — por enquanto, peça o orçamento direto no WhatsApp.
+            Toalhas longas para mesas redondas, em cores prontas para casamentos, festas de 15 e
+            eventos empresariais. Peça no WhatsApp a combinação ideal para a sua quantidade.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2">
-          {formats.map((item, index) => (
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {towelColors.map((item, index) => (
             <article
-              key={item.title}
+              key={item.slug}
               className="group overflow-hidden rounded-[1.25rem] border border-[var(--line)] bg-white/80 shadow-[var(--shadow)] backdrop-blur-sm transition duration-300 hover:-translate-y-1"
             >
-              <div
-                className="photo-slot relative aspect-[16/10]"
-                role="img"
-                aria-label={`Espaço reservado para foto: ${item.title}`}
-              >
-                <div className="absolute inset-0 flex items-end bg-gradient-to-t from-ink/55 via-transparent to-transparent p-5">
-                  <span className="rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-ink">
-                    Foto em breve · {String(index + 1).padStart(2, "0")}
-                  </span>
-                </div>
+              <div className="relative aspect-[4/5] overflow-hidden bg-mist-deep">
+                <Image
+                  src={item.image}
+                  alt={item.alt}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover transition duration-500 group-hover:scale-[1.03]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink/50 via-transparent to-transparent" />
+                <span className="absolute bottom-4 left-4 rounded-full bg-white/92 px-3 py-1 text-xs font-semibold text-ink">
+                  {String(index + 1).padStart(2, "0")} · {item.title}
+                </span>
               </div>
-              <div className="p-6">
+              <div className="p-5">
                 <h3 className="font-display text-xl font-semibold text-ink">{item.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted">{item.copy}</p>
-                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.14em] text-champagne-deep">
-                  {item.specs}
-                </p>
               </div>
             </article>
           ))}
