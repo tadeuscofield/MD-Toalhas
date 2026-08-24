@@ -35,7 +35,7 @@ export function Hero() {
             Aluguel de toalhas para casamentos, festas de 15 e eventos corporativos
           </h1>
           <p className="reveal reveal-delay-2 mt-5 max-w-xl text-base leading-relaxed text-white/90 sm:text-lg">
-            Atendimento em todo o RJ, com peças limpas, cores reais do acervo e mais de{" "}
+            Atendimento no RJ, com peças limpas, cores reais do acervo e mais de{" "}
             {company.years} anos de experiência para empresas e organizadores de eventos.
           </p>
 
