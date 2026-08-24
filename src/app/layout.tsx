@@ -15,7 +15,7 @@ const figtree = Figtree({
   weight: ["400", "500", "600", "700"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://mdalugueldetoalhas.com.br";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://mdtoalhas.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

@@ -29,14 +29,17 @@ npm run start -- --port 3847
 - **Maureci:** (21) 98981-0370
 - **Devanilda:** (21) 98846-8554
 
-## Fotos do cliente
+## Produção
 
-Os espaços de imagem estão preparados como placeholders (“Foto em breve”). Quando as fotos das toalhas chegarem, substitua os blocos `photo-slot` em `Formats` e `About` por `next/image` apontando para `/public/toalhas/`.
+- Domínio: [https://mdtoalhas.com](https://mdtoalhas.com)
+- Repo: [github.com/tadeuscofield/MD-Toalhas](https://github.com/tadeuscofield/MD-Toalhas)
+
+## Fotos
+
+Acervo em `/public/toalhas/` (Branca, Azul Serenity, Rosa, Verde Musgo, Terra Cota, Café com Leite Escuro).
 
 ## Variáveis
 
-Opcional no `.env.local`:
-
 ```bash
-NEXT_PUBLIC_SITE_URL=https://seudominio.com.br
+NEXT_PUBLIC_SITE_URL=https://mdtoalhas.com
 ```
