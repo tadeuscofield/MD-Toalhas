@@ -68,17 +68,23 @@ img {
 }
 
 .atmosphere {
-  background:
+  background-color: #0a292e;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
     radial-gradient(1200px 600px at 80% -10%, rgba(196, 165, 116, 0.28), transparent 55%),
     radial-gradient(900px 500px at 10% 20%, rgba(22, 58, 64, 0.35), transparent 50%),
     linear-gradient(145deg, #0a292e 0%, #124048 48%, #0d3338 100%);
+  background-size:
+    42px 42px,
+    42px 42px,
+    auto,
+    auto,
+    auto;
 }
 
 .fabric-grid {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
-  background-size: 42px 42px;
+  /* Kept for markup compatibility; atmosphere already includes the grid. */
 }
 
 .linen-wash {

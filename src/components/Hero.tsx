@@ -24,7 +24,7 @@ export function Hero() {
           <h1 className="reveal reveal-delay-1 mt-5 max-w-2xl text-2xl font-medium leading-snug text-white sm:text-3xl md:text-4xl">
             Aluguel de toalhas para casamentos, festas de 15 e eventos corporativos
           </h1>
-          <p className="reveal reveal-delay-2 mt-5 max-w-xl text-base leading-relaxed text-white/75 sm:text-lg">
+          <p className="reveal reveal-delay-2 mt-5 max-w-xl text-base leading-relaxed text-white/90 sm:text-lg">
             Atendimento comercial ágil no Rio de Janeiro, com peças limpas, variedade de cores e
             experiência de mais de {company.years} anos para empresas e organizadores de eventos.
           </p>
