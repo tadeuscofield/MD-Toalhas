@@ -56,10 +56,6 @@ export function Footer() {
         <p>
           © {year} {company.name}. Todos os direitos reservados.
         </p>
-        <p className="mt-2 max-w-3xl leading-relaxed">
-          Palavras-chave: aluguel de toalhas RJ, toalhas para casamento, toalhas para festa de 15,
-          toalhas para eventos corporativos, locação de toalhas de mesa no Rio de Janeiro.
-        </p>
       </div>
     </footer>
   );

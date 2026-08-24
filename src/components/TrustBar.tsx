@@ -1,7 +1,7 @@
 const items = [
   { label: "+30 anos", detail: "de tradição no mercado" },
   { label: "Empresas", detail: "e organizadores de eventos" },
-  { label: "RJ", detail: "atendimento ágil e comercial" },
+  { label: "Atendimento em todo RJ", detail: "entrega e suporte comercial" },
   { label: "WhatsApp", detail: "dois canais de orçamento" },
 ];
 
