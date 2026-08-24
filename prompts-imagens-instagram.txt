@@ -1,120 +1,125 @@
-MD Aluguel de Toalhas — 10 prompts de imagem para Instagram + WhatsApp
-=======================================================================
-Uso: cole cada prompt no Grok, ChatGPT (DALL·E) ou gerador similar.
-Formato sugerido: quadrado 1:1 (1080x1080) ou vertical 4:5 (1080x1350).
-Estilo geral: comercial, elegante, limpo — sem texto na imagem (adicione a
-arte no Canva depois: logo MD, WhatsApp, CTA).
+MD Aluguel de Toalhas — 10 prompts de flyer comercial
+=====================================================
+Uso: cole no Grok / ChatGPT / gerador de imagem.
+Formato: VERTICAL 9:16 (1080x1920) — Stories Instagram + Status WhatsApp.
+Estilo OBRIGATÓRIO: flyer de propaganda comercial (não foto editorial).
+Pegada: aluguel de toalhas para eventos no RJ, marca MD, tom convidativo,
+moderno e de venda rápida.
+
+Identidade visual de referência:
+- Fundo escuro teal/ink (#0A292E) + dourado champagne (#C4A574) + branco
+- Toalhas reais do acervo: Branca, Azul Serenity, Rosa, Verde Musgo,
+  Terra Cota, Café com Leite Escuro
+- CTAs possíveis na arte: “Peça orçamento”, “WhatsApp”, “Atendimento em todo RJ”,
+  “+30 anos”, “mdtoalhas.com”
+- Espaço limpo para texto grande (headline + telefone)
 
 ----------------------------------------------------------------------
-PROMPT 01 — Casamento ao entardecer
+PROMPT 01 — Flyer “Casamento impecável”
 ----------------------------------------------------------------------
-Fotografia editorial de casamento no Rio de Janeiro ao entardecer: mesa
-redonda de convidados coberta com toalha longa em tom champagne-creme,
-caimento impecável até o chão, sousplat dourado discreto, arranjo baixo
-de flores brancas e eucalipto. Luz dourada suave, fundo levemente
-desfocado com luzes bokeh. Atmosfera sofisticada e acolhedora. Estilo
-revista de casamentos, alta resolução, cores quentes e naturais, sem
-pessoas em primeiro plano, sem texto, sem logo, enquadramento 1:1.
+Crie um flyer vertical 9:16 de propaganda comercial para aluguel de toalhas
+de casamento. Estilo anúncio de Instagram Stories / WhatsApp Status, NÃO
+fotografia editorial. Layout chamativo: fundo gradient escuro teal para
+quase preto, faixa dourada champagne, foto/recorte de mesa redonda com
+toalha branca longa em destaque no centro (como produto de catálogo em
+propaganda). Tipografia bold de anúncio (espaço para headline grande no
+topo e CTA embaixo). Visual de marketing brasileiro moderno, comercialmente
+convidativo, alta nitidez, cores saturadas de propaganda. Inclua blocos
+geométricos limpos tipo flyer. Sem pessoas, sem watermark, sem logo inventado.
 
 ----------------------------------------------------------------------
-PROMPT 02 — Festa de 15 anos glamourosa
+PROMPT 02 — Flyer “Festa de 15 anos”
 ----------------------------------------------------------------------
-Mesa de festa de debutante com toalha de cetim rosa blush longa,
-brilho sutil do tecido sob luz de salão, detalhes em rose gold,
-taças e pratos brancos, um laço delicado na cadeira. Ambiente de
-salão moderno brasileiro, iluminação glam com pontinhos de luz.
-Sensação jovem, celebrativa e premium. Foto realista, vertical 4:5,
-foco nítido na textura da toalha, sem rostos, sem tipografia.
+Flyer vertical 9:16 estilo propaganda para locação de toalhas rosa para
+festa de 15 anos. Estética de story comercial: fundo rosa blush + overlay
+escuro elegante, estrelas/brilhos sutis de flyer (sem parecer infantil),
+mesa com toalha rosa longa como produto herói. Layout de anúncio com área
+superior para título impactante e rodapé para “Orçamento no WhatsApp”.
+Estilo design gráfico de marketing digital, não foto de revista. Vibrante,
+glam, comercial, 1080x1920.
 
 ----------------------------------------------------------------------
-PROMPT 03 — Coffee break corporativo
+PROMPT 03 — Flyer B2B “Eventos de empresas”
 ----------------------------------------------------------------------
-Mesa retangular tipo pranchão em ambiente corporativo contemporâneo,
-toalha branca limpa e bem esticada, bandejas de finger food, garrafas
-de água e xícaras de café dispostas com ordem. Luz natural de escritório
-ou hotel business, fundo neutro com plantas e vidro. Visual profissional,
-confiável e comercialmente convidativo. Fotografia de produto/evento,
-alta nitidez, paleta cool (branco, cinza, verde suave), 1:1, sem texto.
+Flyer comercial vertical 9:16 para empresas: aluguel de toalhas para
+coffee break, confraternização e eventos corporativos. Visual clean e
+profissional de anúncio LinkedIn/Stories: fundo ink teal, acentos
+champagne e branco, mesa com toalha café com leite escuro ou branca
+como produto. Ícones simples de “empresas”, “entrega RJ”, “WhatsApp”
+em estilo flyer (formas geométricas). Energia comercial B2B, persuasivo,
+moderno. Sem foto documental; parece peça de propaganda pronta para status.
 
 ----------------------------------------------------------------------
-PROMPT 04 — Close da textura (hero de produto)
+PROMPT 04 — Flyer “Cores do acervo”
 ----------------------------------------------------------------------
-Close-up cinematográfico de tecido de toalha de mesa oxford/cetim em
-dobras suaves, como se estivesse sendo ajeitado antes do evento.
-Microtextura do tecido visível, luz lateral suave criando volume,
-tons off-white e bege com reflexo champagne. Fundo escuro teal
-profundo (#0A292E) desfocado. Estética de marca premium de locação
-de enxoval para eventos. Ultra detalhado, 1:1, sem mãos, sem texto.
+Flyer 9:16 de catálogo-propaganda mostrando grade de 6 amostras de toalhas
+em cores: branca, azul serenity, rosa, verde musgo, terra cota e café com
+leite escuro. Cada cor em moldura tipo card de anúncio. Fundo escuro teal,
+título grande no topo (“Escolha a cor do seu evento”), CTA embaixo.
+Estilo flyer comercial / carrossel de story, design gráfico publicitário,
+não moodboard editorial. Cores fiéis e chamativas.
 
 ----------------------------------------------------------------------
-PROMPT 05 — Antes do “sim”: montagem vazia elegante
+PROMPT 05 — Flyer “+30 anos no mercado”
 ----------------------------------------------------------------------
-Salão de eventos vazio minutos antes da festa: fileira de mesas
-redondas já montadas, todas com toalhas brancas longas idênticas,
-alinhamento perfeito, cadeiras ainda sem convidados. Perspectiva
-em diagonal que transmite escala e organização. Luz ambiente
-quente de lustres. Sensação de “tudo pronto, confiança na entrega”.
-Fotografia wide, realista, Brasil contemporâneo, 4:5, sem pessoas,
-sem letreiros.
+Anúncio vertical 9:16 com gancho de confiança: “+30 anos” em tipografia
+gigante champagne sobre fundo ink. Ao fundo, silhueta/composicao de mesa
+com toalha verde musgo em tratamento gráfico de propaganda (poster look).
+Selos de flyer: “Atendimento em todo RJ”, “Peças limpas”, “Orçamento rápido”.
+Estética de outdoor digital / status de WhatsApp vendedor. Forte, direto,
+comercial.
 
 ----------------------------------------------------------------------
-PROMPT 06 — Noite de empresa / confraternização
+PROMPT 06 — Flyer “Orçamento agora no WhatsApp”
 ----------------------------------------------------------------------
-Confraternização empresarial à noite: mesa de apoio coberta com
-toalha verde-floresta escura, taças, petiscos e uma placa discreta
-de “bem-vindos” fora de foco. Ambiente lounge com luz âmbar e
-azul suave ao fundo. Clima moderno, networking, sofisticado sem
-exagero. Ideal para anúncio B2B no Instagram e status do WhatsApp.
-Foto realista 1:1, sem logotipos legíveis, sem texto gerado.
+Flyer de conversão agressiva (mas elegante) 9:16. Fundo escuro, botão verde
+estilo WhatsApp grande no centro inferior, mesa com toalha azul serenity
+como imagem de produto em moldura arredondada. Headline curta no topo
+(“Sua mesa pronta sem dor de cabeça”). Espaço claro para dois números de
+telefone. Visual de anúncio de Stories feito para clicar/chamar agora.
+Design de marketing digital BR, high contrast, sem estética editorial.
 
 ----------------------------------------------------------------------
-PROMPT 07 — Detalhe de pranchão de buffet
+PROMPT 07 — Flyer “Atendimento em todo RJ”
 ----------------------------------------------------------------------
-Vista de cima (flat lay parcial em ângulo 45°) de mesa pranchão
-com toalha retangular branca impecável, passadeira champagne no
-centro, travessas de comida ainda fechadas, guardanapos dobrados.
-Composição limpa e simétrica. Luz de estúdio suave + sombra natural.
-Estilo catálogo de locação de toalhas para buffet. Alta resolução,
-cores fiéis, 1:1, sem marcas, sem tipografia.
+Propaganda vertical 9:16 com mapa estilizado discreto do Rio de Janeiro
+(abstrato, sem brasão oficial) + mesa com toalha terra cota. Faixa
+destaque: “Atendimento em todo RJ”. Estilo flyer de serviço local,
+cores da marca (teal, champagne, branco), tipografia de anúncio.
+Parece status de WhatsApp de empresa de locação. Comercial, claro, vendedor.
 
 ----------------------------------------------------------------------
-PROMPT 08 — Story / WhatsApp Status — “orçamento rápido”
+PROMPT 08 — Flyer “Montagem impecável”
 ----------------------------------------------------------------------
-Cena lifestyle: mãos de organizadora de eventos (sem mostrar rosto)
-segurando o celular ao lado de uma mesa já toalhada em branco e
-dourado. No fundo, salão preparado. Foco na atmosfera de “resolver
-agora pelo WhatsApp”, sem mostrar tela com app ou números. Luz
-natural de manhã. Formato vertical 9:16 para Stories e Status.
-Estética clean, brasileira, comercial, sem texto na imagem.
+Antes/depois em formato flyer (dois painéis verticais no mesmo 9:16):
+lado A mesa sem toalha (cinza/neutro), lado B mesa com toalha branca longa
+luxuosa. Seta ou faixa “MD resolve”. Visual de propaganda comparativa
+para Stories, cores saturadas, molduras limpas, texto de anúncio.
+Não parece foto de revista; parece peça gráfica de marketing.
 
 ----------------------------------------------------------------------
-PROMPT 09 — Contraste de cores (catálogo visual)
+PROMPT 09 — Flyer “Temporada de festas”
 ----------------------------------------------------------------------
-Composição artística de três mesas pequenas lado a lado, cada uma
-com toalha em cor diferente: branco neve, champagne dourado e
-azul-petróleo profundo. Mesmo caimento, mesma iluminação de estúdio,
-fundo infinito claro. Mostra variedade de cores do acervo de
-aluguel. Visual de lookbook moderno, simétrico, minimalista e
-premium. 1:1, hiper-realista, sem rótulos, sem texto.
+Flyer sazonal 9:16 para alta temporada (casamentos e 15 anos): confetes
+gráficos dourados (estilo design, não foto real bagunçada), fundo teal
+escuro, destaque de toalha rosa e branca em composição publicitária.
+Badge “Vagas de agenda” / “Reserve pelo WhatsApp”. Energia de campanha
+promocional para status. Moderno, comercialmente convidativo, alto impacto.
 
 ----------------------------------------------------------------------
-PROMPT 10 — Rio + tradição (+30 anos) em clima emocional
+PROMPT 10 — Flyer “mdtoalhas.com”
 ----------------------------------------------------------------------
-Cena emocional e comercial: varanda de evento com vista suave e
-desfocada de morfologia carioca (mar ou morros ao longe, sem
-ponto turístico óbvio), mesa posta com toalha branca longa
-ondulando levemente com a brisa do fim de tarde. Uma única vela
-acesa e um arranjo simples. Sensação de tradição, cuidado e
-experiência de décadas no mercado de eventos no RJ. Fotografia
-poética realista, tons teal e champagne, 4:5, sem pessoas, sem
-texto, sem bandeiras ou logos.
+Peça vertical 9:16 de branding + conversão: nome “MD Aluguel de Toalhas”
+em destaque champagne, URL “mdtoalhas.com” grande e legível, foto-produto
+de toalha branca em card central, fundo ink com grid sutil. Rodapé com
+WhatsApp e “Atendimento em todo RJ”. Estilo flyer institucional de story,
+limpo, premium comercial (não editorial). Pronto para status e Instagram.
 
 ----------------------------------------------------------------------
-Dicas rápidas de pós-produção (Canva / CapCut)
+Como usar depois no Canva / CapCut
 ----------------------------------------------------------------------
-1. Sobreponha o logo “MD Aluguel de Toalhas” pequeno no canto.
-2. CTA sugeridos: “Peça orçamento no WhatsApp”, “Atendimento em todo RJ”,
-   “+30 anos vestindo mesas”.
-3. Contatos: Maureci (21) 98981-0370 · Devanilda (21) 98846-8554
-4. Evite poluir a imagem — uma frase curta + um botão basta.
-5. No WhatsApp, prefira 1:1; no feed Instagram, 4:5; nos Stories, 9:16.
+1. Gere a arte e substitua textos pelos reais da MD.
+2. Contatos: Maureci (21) 98981-0370 · Devanilda (21) 98846-8554
+3. Site: mdtoalhas.com
+4. Exporte 1080x1920 para Stories/Status.
+5. No feed, pode recortar para 4:5; no WhatsApp Status, mantenha 9:16.
